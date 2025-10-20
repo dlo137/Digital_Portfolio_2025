@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install)"
+      "Bash(npm install)",
+      "Bash(node -e \"const fs = require(''fs''); const path = require(''path''); const cacheDir = path.join(''.'', ''node_modules'', ''.cache'', ''gh-pages''); if (fs.existsSync(cacheDir)) { fs.rmSync(cacheDir, { recursive: true, force: true }); console.log(''Cache cleared''); } else { console.log(''No cache found''); }\")",
+      "Bash(if not exist \".github\\workflows\" mkdir \".github\\workflows\")",
+      "Bash(git add .github/workflows/deploy.yml)",
+      "Bash(git commit -m \"Add GitHub Actions workflow for deployment\")",
+      "Bash(git push)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"Configure project for GitHub Pages deployment\")",
+      "Bash(git rm -r --cached node_modules/.cache)",
+      "Bash(git add .gitignore package.json vite.config.js src/)",
+      "Bash(git commit -m \"Update project configuration and add complete portfolio design\")",
+      "Bash(git commit -m \"Fix workflow branch from main to master\")",
+      "Bash(git add package-lock.json)",
+      "Bash(git commit -m \"Update package-lock.json\")"
     ],
     "deny": [],
     "ask": []
