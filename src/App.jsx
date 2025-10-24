@@ -18,6 +18,7 @@ import nikeScreenshot from '../assets/project-screenshots/screenshot-nike-projec
 import avatarIcon from '../assets/icons/avatar1.png'
 import pythonIcon from '../assets/icons/python.png'
 import mysqlIcon from '../assets/icons/mysql.png'
+import supabaseIcon from '../assets/icons/supabase.png'
 import cppIcon from '../assets/icons/c-.png'
 import csharpIcon from '../assets/icons/c-sharp.png'
 import javaIcon from '../assets/icons/java.png'
@@ -197,8 +198,9 @@ function App() {
                     <div className="footer-icons">
                       <img src={reactIcon} alt="React" className="footer-icon" />
                       <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={supabaseIcon} alt="Supabase" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
-                      <img src={html5Icon} alt="HTML5" className="footer-icon" />
+                      <img src={mysqlIcon} alt="MySQL" className="footer-icon" />
                     </div>
                   </div>
                 </>
@@ -253,8 +255,9 @@ function App() {
                     <div className="footer-icons">
                       <img src={reactIcon} alt="React" className="footer-icon" />
                       <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={supabaseIcon} alt="Supabase" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
-                      <img src={html5Icon} alt="HTML5" className="footer-icon" />
+                      <img src={mysqlIcon} alt="MySQL" className="footer-icon" />
                     </div>
                   </div>
                 </>
@@ -290,8 +293,9 @@ function App() {
                     <div className="footer-icons">
                       <img src={reactIcon} alt="React" className="footer-icon" />
                       <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={supabaseIcon} alt="Supabase" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
-                      <img src={html5Icon} alt="HTML5" className="footer-icon" />
+                      <img src={mysqlIcon} alt="MySQL" className="footer-icon" />
                     </div>
                   </div>
                 </>
@@ -305,12 +309,14 @@ function App() {
                     <img src={typescriptLightIcon} alt="TypeScript" className="tech-icon" />
                     <img src={cppIcon} alt="C++" className="tech-icon" />
                     <img src={csharpIcon} alt="C#" className="tech-icon" />
+                    <img src={css3Icon} alt="CSS3" className="tech-icon" />
                   </div>
                   <div className="tech-stack-row">
                     <img src={pythonIcon} alt="Python" className="tech-icon" />
                     <img src={javaIcon} alt="Java" className="tech-icon" />
                     <img src={jsIcon} alt="JavaScript" className="tech-icon" />
                     <img src={mysqlIcon} alt="MySQL" className="tech-icon" />
+                    <img src={html5Icon} alt="HTML5" className="tech-icon" />
                   </div>
                 </div>
               ) : activeLink === 'apps' ? (
@@ -335,8 +341,7 @@ function App() {
                   <div className="cell-footer">
                     <span className="footer-title">Admin Dashboard (UI/UX)</span>
                     <div className="footer-icons">
-                      <img src={reactIcon} alt="React" className="footer-icon" />
-                      <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={jsIcon} alt="JavaScript" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
                       <img src={html5Icon} alt="HTML5" className="footer-icon" />
                     </div>
@@ -372,6 +377,7 @@ function App() {
                   <div className="cell-footer">
                     <span className="footer-title">Python Weather App</span>
                     <div className="footer-icons">
+                      <img src={pythonIcon} alt="Python" className="footer-icon" />
                       <img src={reactIcon} alt="React" className="footer-icon" />
                       <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
@@ -405,7 +411,7 @@ function App() {
                     <span className="footer-title">Crypto Currency Tracker</span>
                     <div className="footer-icons">
                       <img src={reactIcon} alt="React" className="footer-icon" />
-                      <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={jsIcon} alt="JavaScript" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
                       <img src={html5Icon} alt="HTML5" className="footer-icon" />
                     </div>
@@ -436,8 +442,7 @@ function App() {
                   <div className="cell-footer">
                     <span className="footer-title">Nike E-Commerce Site (UI/UX)</span>
                     <div className="footer-icons">
-                      <img src={reactIcon} alt="React" className="footer-icon" />
-                      <img src={typescriptLightIcon} alt="TypeScript" className="footer-icon" />
+                      <img src={jsIcon} alt="JavaScript" className="footer-icon" />
                       <img src={css3Icon} alt="CSS3" className="footer-icon" />
                       <img src={html5Icon} alt="HTML5" className="footer-icon" />
                     </div>
