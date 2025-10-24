@@ -14,7 +14,8 @@
       "Bash(git commit -m \"Update project configuration and add complete portfolio design\")",
       "Bash(git commit -m \"Fix workflow branch from main to master\")",
       "Bash(git add package-lock.json)",
-      "Bash(git commit -m \"Update package-lock.json\")"
+      "Bash(git commit -m \"Update package-lock.json\")",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []
